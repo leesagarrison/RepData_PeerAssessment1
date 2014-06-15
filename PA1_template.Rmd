@@ -60,9 +60,11 @@ sum(is.na(activity$steps))
 
 To fill in the missing value of the dataset:
 
-*1 - merge the dateframe with the raw activity data with the dataframe containing the mean number of steps for each interval across all days 
-*2 - for each NA value, find the interval for that entry
-*3 - check the mean value of steps for that 5-minute interval across all days
+  1 - merge the dateframe with the raw activity data with the dataframe containing the mean number of steps for each interval across all days 
+
+  2 - for each NA value, find the interval for that entry
+
+  3 - check the mean value of steps for that 5-minute interval across all days
    
    4 - copy the mean value for that interval into the NA number of steps
    
